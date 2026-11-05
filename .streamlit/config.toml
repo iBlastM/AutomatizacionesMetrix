@@ -1,0 +1,40 @@
+[theme]
+base = "dark"
+primaryColor = "#7BC11D"
+backgroundColor = "#060606"
+secondaryBackgroundColor = "#141414"
+textColor = "#FFFFFF"
+borderColor = "#26331A"
+baseRadius = "0.625rem"
+font = "Barlow"
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/barlow-latin-400-normal.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/barlow-latin-500-normal.woff2"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/barlow-latin-600-normal.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/barlow-latin-700-normal.woff2"
+weight = 700
+
+[server]
+maxUploadSize = 500
+enableStaticServing = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
