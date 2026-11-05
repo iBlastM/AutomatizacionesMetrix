@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.playwright-mcp/
+shots/
+.impeccable/
+*.log
+
+# Datos de trabajo: no subir bases con datos personales
+*.xlsx
+*.xls
+*.csv
+*.parquet
+.streamlit/secrets.toml
+config.bat
+node_modules
